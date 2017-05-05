@@ -18,8 +18,7 @@ class MerkelTreeHash(object):
         Next concatinate the hashes in each group and compute the hash of the group,
         then keep the track of the group hashes 
         Repeat this process until We get a sing;e hash then that becomes the hash we are looking for.
-        :param file_hashes: 
-        :return: 
+        
         """
 
         blocks = []
